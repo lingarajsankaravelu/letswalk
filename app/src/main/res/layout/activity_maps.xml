@@ -1,0 +1,34 @@
+<!--<?xml version="1.0" encoding="utf-8"?> !-->
+<layout xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ViewSwitcher
+    android:id="@+id/view_switcher"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <include
+      layout="@layout/loader_layout"
+      android:id="@+id/loader_container"
+      />
+
+  <fragment
+    android:id="@+id/map_for_ride"
+    class="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    />
+</ViewSwitcher>
+
+  <FrameLayout
+      android:id="@+id/bottom_sheet_frame"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      map:behavior_peekHeight="?actionBarSize"
+      map:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

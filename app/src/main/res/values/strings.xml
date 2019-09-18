@@ -1,0 +1,11 @@
+<resources>
+  <string name="app_name">Let\'s Walk</string>
+  <string name="title_activity_maps">Map</string>
+  <string name="msg_only_four_markers_allowed">Sorry, you cannot mark more than four locations in map</string>
+  <string name="msg_common_loading">Loading</string>
+  <string name="error_permission">Please Provide Necessary Permissions to Continue!</string>
+  <string name="grant_permission">Grant Permissions</string>
+  <string name="favourites">Favourites</string>
+  <string name="dummy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae nunc et sapien tristique ornare ut in diam. Etiam non sapien vitae turpis pulvinar ullamcorper nec vitae justo. Donec convallis porttitor sem, eu semper arcu faucibus in. Nunc ligula erat, ornare vitae odio vel, interdum elementum neque.</string>
+  <string name="dummy_city">California</string>
+</resources>
